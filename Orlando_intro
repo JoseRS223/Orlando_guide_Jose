@@ -5,6 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <title>Orlando Guide: Introduction</title>
 </head>
+
+<body class="intro_page">
+  <header class="header">
+    <h1>An introduction To The Beauty of Orlando</h1>
+  </header>
+
+  <nav>
+    <ul class="main-menu">
+      <li><a href="Orlando_intro.html">Home</a></li>
+      <li><a href="Orlando_Attractions.html">Attractions</a></li>
+      <li><a href="Orlando_Nature.html">Nature And Local Places</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+    <section>
+      <h2>The Basics of Orlando</h2>
+
+      <p>
+        <b>Orlando</b> is one of the most popular cities to visit in America, and for many great reasons. 
+        In 2025 alone, <b>76.7 million</b> people visited Orlando, having more visitors than 
+        even New York. 
+        <br> 
+        <br> 
+        It is officially the city with <b>the most theme parks</b> in the 
+        <b>entire world</b>, having 10 different major theme parks, <br>
+        such as <b>EPCOT, Magic Kingdom, Universal, SeaWorld</b>, and many more.  
+       <br>
+       <br> 
+       Due to this, many dream to visit Orlando only to focus their entire trip on these theme parks. 
+       <br>
+       <br> 
+       Why try to plan for anything else, when the theme parks alone can fill an entire trip? 
+       <br>
+       <br> 
+       Why look through the many other parts of the city if it already sells itself as being THE city for theme parks?
+       <br>
+       <br> 
+       Why waste the time you could be spending in the theme parks instead?
+       <br>
+      </p>
+
+      <p>
+        This perspective, which is created from the unwillingless to learn what truly makes a 
+        city has lead to everyone seeing this one city as "one note", to a place you only visit if you enjoy theme parks and nothing more.
+        <br>
+        
+      </p>
+    </section>
+
+    <aside>
+      <h3>History of Orlando</h3>
+      <h4> Test Test Test </h4>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
