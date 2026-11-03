@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: right 20px top 150px; 
+  background-attachment: fixed; 
+}
+
+.intro_page {
+  background-image: linear-gradient(to bottom,rgb(255, 254, 254), 
+  rgba(255, 255, 255, 0.8)),  url(Images/universal-s-islands-of.jpg);
+}
+
+.attraction_page {
+  background-image: linear-gradient(to bottom,rgb(255, 254, 254), 
+  rgba(255, 255, 255, 0.8)),  url(Images/theme_park_bg.webp);
+}
+
+.nature_page {
+  background-image: linear-gradient(to bottom,rgb(255, 254, 254), 
+  rgba(255, 255, 255, 0.8)),  url(Images/nature_bg.webp);
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff7d7d ;
+}
+
+
+h1 {
+  font-weight: bold;
+}
+
+.header {
+  padding: 50px;
+  background-color: #ff7d7d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.main-menu {
+  padding: 15px;
+  background-color: #7bc8ea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Main Content */
+.main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main section {
+  max-width: 950px;
+  max-height: 400px;
+}
+
+.main section h2 {
+  margin-bottom: 20px;
+}
+
+.main section p {
+  margin-bottom: 20px;
+}
+
+/* Sidebar */
+.main aside {
+  max-width: 50vw;
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main aside h3 {
+  padding: 50px;
+  height: 500px;
+  background-color: #ff7d7d;
+  color: #fff;
+}
+
+.main aside h4 {
+  padding: 10px;
+  max-width: 50vw;
+  max-height: 50vh;
+  background-color: #ff7d7d;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 576px) {
+  .main aside {
+    display: flex;
+    flex-direction: column;}
+}
+
+@media (max-width: 576px) {
+  .main section p {
+    font-size: 12px;
+    margin-right: 10%;
+   }
+}
