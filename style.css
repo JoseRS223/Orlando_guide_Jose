@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #333;
@@ -70,17 +74,6 @@ h1 {
   justify-content: space-around;
 }
 
-/* .main section {
-  background-color: rgba(255, 255, 255, 0.95);
-  padding: 24px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-Doesn't scale with text, so when the screen size is much smaller the text goes past it while it doesnt go with
-*/
-
 .main section {
   max-width: 950px;
   max-height: 400px;
@@ -88,35 +81,63 @@ Doesn't scale with text, so when the screen size is much smaller the text goes p
 
 .main section h2 {
   margin-bottom: 20px;
+  font-size: xx-large;
 }
 
 .main section p {
   margin-bottom: 20px;
+  font-size: larger;
+}
+
+/* Back to top */
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 /* Sidebar */
 
 .main aside {
   max-width: 40vw;
-  max-height: 30vh;
+  max-height: 50vh;
   display: flex;
   flex-direction: column;
   margin-left: 5%
+
 }
 
 .main aside h3 {
-  padding: 30px;
-  height: 500px;
+  padding: 5px;
+  height: 600px;
   background-color: #ff7d7d;
   color: #fff;
-}
-
-.main aside h4 {
-  padding: 10px;
-  background-color: #ff7d7d;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
+  
+}
+.main aside h4 {
+  padding: 5px;
+  height: 500px;
+  background-color: #ff7d7d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+img {
+    padding: 10px;
+  height: 500px;
+  background-color: #c6c6c6;
 }
 
 @media (max-width: 1024px) {
@@ -128,12 +149,42 @@ Doesn't scale with text, so when the screen size is much smaller the text goes p
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   h3 {
   font-size: 13px;
   }
    h4 {
   font-size: 13px;
+  }
+}
+
+@media (max-width: 1024px) {
+  h3 {
+  font-size: 12px;
+  }
+   h4 {
+  font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+  font-size: 11px;
+  }
+   h4 {
+  font-size: 11px;
+  height: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  h3 {
+  font-size: 10px;
+  }
+   h4 {
+  font-size: 10px;
+  height: 600px;
+  padding: 30px;
   }
 }
 
@@ -166,14 +217,21 @@ Doesn't scale with text, so when the screen size is much smaller the text goes p
 
 /* IMG @ medias */
 img {
-  max-width: 80vw;
-  max-height: 100vh;
+  max-width: 70vw;
+  max-height: 90vh;
+}
+
+@media (max-width: 576px) {
+  img {
+ max-height: 12vw;
+ max-width: 24vh;
+  }
 }
 
 @media (max-width: 768px) {
   img {
- max-height: 15vw;
- width: 35vh;
+ max-height: 12vw;
+ max-width: 32vh;
   }
 }
 
@@ -181,5 +239,12 @@ img {
   img {
  max-height: 50vw;
  max-width: 70vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro {
+ max-height: 300px;
+ max-width: 500px;
   }
 }
